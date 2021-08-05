@@ -1,16 +1,15 @@
-# Semaphore CI support for Ship
+# Semaphore support for Ship
 
-Welcome to Ship's [Semaphore CI](https://semaphoreci.com/) support! To learn how Ship can help you with your Semaphore
-CI projects, please see [our website](https://www.shipapp.io/integrations/semaphoreci).
+Welcome to Ship's [Semaphore](https://semaphoreci.com/) support! To learn how Ship can help you with your Semaphore projects, please see [our website](https://www.shipapp.io/integrations/semaphore).
 
 To get Ship integrated, perform these steps:
 
 ## Step 1: Add the Ship App to your GitHub Organization
 
 This can be done from our [GitHub Marketplace listing](https://github.com/marketplace/shipapp-io). Ship needs to
-integrate with Github for user authentication, and it will also map Github commit details to your Semaphore CI events.
+integrate with Github for user authentication, and it will also map Github commit details to your Semaphore events.
 
-## Step 2: Get your Ship + Semaphore CI Webhook URL + API Key
+## Step 2: Get your Ship + Semaphore Webhook URL + API Key
 
 Email [hello@shipapp.io](mailto:hello@shipapp.io) to get yours!
 
@@ -19,7 +18,7 @@ Email [hello@shipapp.io](mailto:hello@shipapp.io) to get yours!
 For each Workflow / Pipeline you wish to monitor you need to set up **Webhook Notifications** . Semaphore doesn't allow
 defining these globally for an organization, so you need to do this per project.
 
-Semaphore CI offers multiple ways of defining webhooks, all of which are
+Semaphore offers multiple ways of defining webhooks, all of which are
 described [in their documentation](https://docs.semaphoreci.com/essentials/webhook-notifications/) . Ship supports all
 types of notification that Semaphore will send.
 
